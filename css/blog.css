@@ -1,0 +1,80 @@
+/* Blog's Name */
+
+.header-title{
+    text-align: center;
+}
+
+.gr-img{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.img-blog{
+    width: 100%;
+}
+
+.text-img{
+    font-size: 14px;
+}
+
+.blogname-container h1{
+    margin-top: 50vh;
+    font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";    ;
+    font-size: 100px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    box-sizing: content-box;
+}
+
+#stationery .blogname-container{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center;
+    flex-direction: column;
+    text-align: center;
+    vertical-align: bottom; */
+    background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/blog3.2.jpg);    
+    background-size: cover;
+}
+
+#lipstick .blogname-container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center;
+    flex-direction: column;
+    text-align: center;
+    vertical-align: bottom; */
+    background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/AnyConv.com__EbqqXbmUEAELvvZ.jpg);    
+    background-size: cover;
+
+}
+
+.blogname-container {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center;
+    flex-direction: column;
+    text-align: center;
+    vertical-align: bottom; */
+    background:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/Blog2/1.jpg);    
+    background-size: cover;
+    /* box-sizing: border-box; */
+    background-position: 50%;
+}
+
+.content{
+    text-align: justify;
+    margin: 60px 60px;
+}
+
+.author{
+    color: grey;
+    margin-bottom: 60px;
+}
