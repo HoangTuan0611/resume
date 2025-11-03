@@ -16,7 +16,7 @@ Fullstack Developer
 
 ## Professional Summary
 
-I'm Hoang Tuan, and I have nearly four years of experience in software engineering, starting from my college years. I'm a Full-Stack Developer with a strong passion for building high-performance, user-centric applications. My expertise spans across modern front-end technologies like React.js, Next.js, Redux, and Redux Toolkit, Zustand, and robust back-end development using Node.js and NestJS.
+I'm Hoang Tuan, and I have 3+ years of experience in software engineering, starting from my college years. I'm a Full-Stack Developer with a strong passion for building high-performance, user-centric applications. My expertise spans across modern front-end technologies like React.js, Next.js, Redux, and Redux Toolkit, Zustand, and robust back-end development using Node.js and NestJS.
 
 ## Work Experience
 
@@ -42,11 +42,11 @@ I'm Hoang Tuan, and I have nearly four years of experience in software engineeri
 
 **Technologies Used**:
 
-- Languages & Tools: NestJS, TypeScript
-- Databases & Systems: Mysql, SQL Server, Redis, Mongo
-- Data & Workflow Management: Kubernetes (K8S), S3
+- Languages & Tools: NestJS, NextJS, TypeScript
+- Databases & Systems: Mysql, Redis
+- Data & Workflow Management: Docker, Nginx
 - Messaging & Monitoring: Elasticsearch
-- CI/CD & Advertising Standards: GitLab CI
+- CI/CD & Advertising Standards: Github
 
 ---
 
@@ -82,7 +82,7 @@ HTML, CSS, JavaScript, ReactJS, .NET, Azure, MySQL, Git, SourceTree
 **Corsiva Lab Pte Ltd**
 
 - **Position**: Fullstack Developer (Full-time)
-- **Duration**: Dec 2020 - Nov 2022 · 2 yrs
+- **Duration**: Feb 2021 - Nov 2022 · 1 yr 10 mos
 - **Location**: Singapore
 
 **Responsibilities**:
@@ -102,7 +102,7 @@ HTML, CSS, JavaScript, ReactJS, .NET, Azure, MySQL, Git, SourceTree
 
 **Technologies Used**:
 
-HTML, CSS, JavaScript, ReactJS, Semantic UI, .NET, MySQL, Git, SourceTree
+HTML, CSS, JavaScript, ReactJS, Semantic UI, NodeJs, MySQL, Mongo, Git, SourceTree
 
 ## Education
 
@@ -138,23 +138,28 @@ HTML, CSS, JavaScript, ReactJS, Semantic UI, .NET, MySQL, Git, SourceTree
 
 - MySQL
 - SQL Server
-- Redis
 - MongoDB
+- Redis
 
 ### DevOps & Tools
 
 - Kubernetes (K8S)
-- S3
+- Nginx
 - Elasticsearch
+- OpenSearch
 - GitLab CI
 - Git
 - SourceTree
 - Docker
 - Azure
+- Firebase
 
 ### UI/UX Libraries
 
+- Ant Design
 - Semantic UI
+- Tailwind
+- Bootstrap
 
 ### Other Technologies
 

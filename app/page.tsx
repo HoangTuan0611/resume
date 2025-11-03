@@ -9,191 +9,6 @@ export default function Home() {
   const resumeRef = useRef<HTMLDivElement | null>(null);
   const [loading, setLoading] = useState(false);
 
-  // async function handleDownload() {
-  //   if (!resumeRef.current) return;
-  //   setLoading(true);
-
-  //   // Dynamically import html2pdf to avoid SSR issues
-  //   const html2pdf = (await import("html2pdf.js")).default;
-
-  //   const opt = {
-  //     margin: 0.4,
-  //     filename: "NguyenHoangTuan_Fullstack_Resume.pdf",
-  //     image: { type: "jpeg", quality: 0.98 },
-  //     html2canvas: {
-  //       scale: 2,
-  //       useCORS: true,
-  //       logging: false,
-  //       backgroundColor: "#ffffff",
-  //     },
-  //     jsPDF: { unit: "in", format: "letter", orientation: "portrait" },
-  //     pagebreak: { mode: "avoid-all" },
-  //   };
-
-  //   try {
-  //     // Clone the element and strip all Tailwind classes to avoid lab() color issues
-  //     const clone = resumeRef.current.cloneNode(true) as HTMLElement;
-
-  //     // Remove footer element from clone (should not be exported)
-  //     const footerInClone = clone.querySelector("#resume-footer-not-export");
-  //     if (footerInClone) {
-  //       footerInClone.remove();
-  //     }
-
-  //     // Helper function to convert ANY color to RGB using canvas
-  //     const colorToRgb = (colorValue: string): string => {
-  //       if (!colorValue || colorValue === "none" || colorValue === "transparent") {
-  //         return colorValue;
-  //       }
-
-  //       // Check if it's already rgb/rgba
-  //       if (colorValue.startsWith("rgb")) {
-  //         return colorValue;
-  //       }
-
-  //       // Use canvas to convert any color format to RGB
-  //       try {
-  //         const canvas = document.createElement("canvas");
-  //         canvas.width = 1;
-  //         canvas.height = 1;
-  //         const ctx = canvas.getContext("2d");
-
-  //         if (ctx) {
-  //           ctx.fillStyle = colorValue;
-  //           ctx.fillRect(0, 0, 1, 1);
-  //           const imageData = ctx.getImageData(0, 0, 1, 1).data;
-  //           return `rgb(${imageData[0]}, ${imageData[1]}, ${imageData[2]})`;
-  //         }
-  //       } catch (e) {
-  //         console.warn("Failed to convert color:", colorValue, e);
-  //       }
-
-  //       // Fallback to black if conversion fails
-  //       return "rgb(0, 0, 0)";
-  //     };
-
-  //     // Temporarily append clone to body (hidden) to force style computation
-  //     clone.style.position = "absolute";
-  //     clone.style.left = "-9999px";
-  //     clone.style.top = "0";
-  //     document.body.appendChild(clone);
-
-  //     // Now process the clone while it's in the DOM
-  //     const allElements = clone.querySelectorAll("*");
-
-  //     allElements.forEach((el) => {
-  //       const element = el as HTMLElement;
-
-  //       // Get computed styles while element is in DOM (browser will compute oklch to rgb)
-  //       const computedStyle = window.getComputedStyle(element);
-
-  //       // Capture and convert all color properties
-  //       const color = computedStyle.color;
-  //       const backgroundColor = computedStyle.backgroundColor;
-  //       const borderTopColor = computedStyle.borderTopColor;
-  //       const borderBottomColor = computedStyle.borderBottomColor;
-  //       const borderLeftColor = computedStyle.borderLeftColor;
-  //       const borderRightColor = computedStyle.borderRightColor;
-
-  //       // Apply as inline styles BEFORE removing classes
-  //       if (color && color !== "rgba(0, 0, 0, 0)" && !color.includes("oklch") && !color.includes("lab(")) {
-  //         element.style.color = color;
-  //       } else if (color && (color.includes("oklch") || color.includes("lab("))) {
-  //         element.style.color = colorToRgb(color);
-  //       }
-
-  //       if (backgroundColor && backgroundColor !== "rgba(0, 0, 0, 0)" && !backgroundColor.includes("oklch") && !backgroundColor.includes("lab(")) {
-  //         element.style.backgroundColor = backgroundColor;
-  //       } else if (backgroundColor && (backgroundColor.includes("oklch") || backgroundColor.includes("lab("))) {
-  //         element.style.backgroundColor = colorToRgb(backgroundColor);
-  //       }
-
-  //       if (borderTopColor && !borderTopColor.includes("oklch") && !borderTopColor.includes("lab(")) {
-  //         element.style.borderTopColor = borderTopColor;
-  //       } else if (borderTopColor && (borderTopColor.includes("oklch") || borderTopColor.includes("lab("))) {
-  //         element.style.borderTopColor = colorToRgb(borderTopColor);
-  //       }
-
-  //       if (borderBottomColor && !borderBottomColor.includes("oklch") && !borderBottomColor.includes("lab(")) {
-  //         element.style.borderBottomColor = borderBottomColor;
-  //       } else if (borderBottomColor && (borderBottomColor.includes("oklch") || borderBottomColor.includes("lab("))) {
-  //         element.style.borderBottomColor = colorToRgb(borderBottomColor);
-  //       }
-
-  //       if (borderLeftColor && !borderLeftColor.includes("oklch") && !borderLeftColor.includes("lab(")) {
-  //         element.style.borderLeftColor = borderLeftColor;
-  //       } else if (borderLeftColor && (borderLeftColor.includes("oklch") || borderLeftColor.includes("lab("))) {
-  //         element.style.borderLeftColor = colorToRgb(borderLeftColor);
-  //       }
-
-  //       if (borderRightColor && !borderRightColor.includes("oklch") && !borderRightColor.includes("lab(")) {
-  //         element.style.borderRightColor = borderRightColor;
-  //       } else if (borderRightColor && (borderRightColor.includes("oklch") || borderRightColor.includes("lab("))) {
-  //         element.style.borderRightColor = colorToRgb(borderRightColor);
-  //       }
-
-  //       // Now remove class attributes
-  //       element.removeAttribute("class");
-
-  //       // Additional sanitization
-  //       const style = element.style;
-  //       if (style) {
-  //         // Handle background with gradients
-  //         if (style.background) {
-  //           if (style.background.includes("gradient")) {
-  //             style.background = "#ffffff";
-  //           } else if (style.background.includes("oklch") || style.background.includes("lab(")) {
-  //             style.background = "#ffffff";
-  //           }
-  //         }
-
-  //         // Override marginTop for bullet dots (6px circles)
-  //         if (
-  //           style.width === "6px" &&
-  //           style.height === "6px" &&
-  //           style.borderRadius === "50%"
-  //         ) {
-  //           style.marginTop = "9px";
-  //           if (!style.backgroundColor || style.backgroundColor === "rgba(0, 0, 0, 0)") {
-  //             style.backgroundColor = "#3b82f6";
-  //           }
-  //         }
-
-  //         // Remove box-shadows that cause artifacts
-  //         if (style.boxShadow && style.boxShadow !== "none") {
-  //           style.boxShadow = "none";
-  //         }
-
-  //         // Remove filters that cause blur artifacts
-  //         if (style.filter && style.filter !== "none") {
-  //           style.filter = "none";
-  //         }
-  //       }
-  //     });
-
-  //     clone.removeAttribute("class");
-
-  //     // Set white background on clone
-  //     clone.style.backgroundColor = "#ffffff";
-  //     clone.style.boxShadow = "none";
-  //     clone.style.border = "none";
-  //     clone.style.position = "";
-  //     clone.style.left = "";
-  //     clone.style.top = "";
-
-  //     // Remove clone from body
-  //     document.body.removeChild(clone);
-
-  //     // html2pdf takes an element and options
-  //     await html2pdf().from(clone).set(opt).save();
-  //   } catch (err) {
-  //     console.error("html2pdf error", err);
-  //     alert("Failed to generate PDF");
-  //   } finally {
-  //     setLoading(false);
-  //   }
-  // }
-
   async function handleDownload() {
     if (!resumeRef.current) return;
     setLoading(true);
@@ -728,13 +543,13 @@ export default function Home() {
                   lineHeight: "1.8",
                 }}
               >
-                I&apos;m Hoang Tuan, and I have nearly four years of experience
+                I&apos;m Hoang Tuan, and I have 3+ years of experience
                 in software engineering, starting from my college years.
                 I&apos;m a Full-Stack Developer with a strong passion for
                 building high-performance, user-centric applications. My
-                expertise spans modern front-end technologies like React.js and
-                Next.js and robust back-end development using Node.js and
-                NestJS.
+                expertise spans across modern front-end technologies like React.js,
+                Next.js, Redux, and Redux Toolkit, Zustand, and robust back-end
+                development using Node.js and NestJS.
               </p>
             </section>
 
@@ -819,16 +634,16 @@ export default function Home() {
                   </strong>
                   <span style={{ color: "#4b5563" }}>
                     {" "}
-                    Kubernetes, Docker, S3, Elasticsearch, GitLab CI, Git
+                    Kubernetes, Azure, Nginx, Elasticsearch, OpenSearch, Docker, Git
                   </span>
                 </div>
                 <div>
                   <strong style={{ fontWeight: "700", color: "#111827" }}>
-                    Other:
+                    UI/UX Libraries:
                   </strong>
                   <span style={{ color: "#4b5563" }}>
                     {" "}
-                    Azure, Semantic UI, API Development
+                    Ant Design, Semantic UI, Tailwind, Bootstrap
                   </span>
                 </div>
               </div>
@@ -1104,8 +919,7 @@ export default function Home() {
                     lineHeight: "1.8",
                   }}
                 >
-                  NestJS, NextJS, TypeScript, MySQL, SQL Server, Redis, MongoDB,
-                  Elasticsearch, GitLab CI, Docker
+                  NestJS, NextJS, TypeScript, MySQL, Redis, Docker, Nginx, Elasticsearch, Github
                 </p>
               </div>
 
@@ -1317,7 +1131,7 @@ export default function Home() {
                     lineHeight: "1.8",
                   }}
                 >
-                  HTML, CSS, JavaScript, ReactJS, .NET, Azure, MySQL, Git,
+                  HTML, CSS, JavaScript, ReactJS, Semantic UI, .NET, Azure, MySQL, Git,
                   SourceTree
                 </p>
               </div>
@@ -1531,8 +1345,7 @@ export default function Home() {
                     lineHeight: "1.8",
                   }}
                 >
-                  HTML, CSS, JavaScript, ReactJS, Semantic UI, NodeJS, MongoDB,
-                  Git, SourceTree
+                  HTML, CSS, JavaScript, ReactJS, Bootstrap, NodeJs, MySQL, Mongo, Git
                 </p>
               </div>
             </section>
@@ -1794,7 +1607,7 @@ export default function Home() {
                 </span>
               </p>
               <p style={{ fontSize: "12px", color: "#9ca3af" }}>
-                Nearly 4 years of professional full-stack development experience
+                3+ years of professional full-stack development experience
               </p>
             </div>
           </div>
