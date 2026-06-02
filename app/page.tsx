@@ -2,7 +2,7 @@
 
 import { useRef, useState } from "react";
 import Image from "next/image";
-import { Download, Mail, MapPin, Linkedin, Github, Phone } from "lucide-react";
+import { Download, MapPin, Linkedin, Github } from "lucide-react";
 import ScrollProgress from "./components/ScrollProgress";
 
 export default function Home() {
@@ -340,71 +340,6 @@ export default function Home() {
                       alignItems: "center",
                       gap: "10px",
                       color: "#475569",
-                      transition: "color 0.2s",
-                    }}
-                  >
-                    <div
-                      className="contact-icon"
-                      style={{
-                        width: "32px",
-                        height: "32px",
-                        borderRadius: "8px",
-                        background:
-                          "linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%)",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        flexShrink: 0,
-                      }}
-                    >
-                      <Mail size={16} style={{ color: "#3b82f6" }} />
-                    </div>
-                    <span
-                      className="contact-text"
-                      style={{ fontSize: "13px", fontWeight: "500" }}
-                    >
-                      nguyenhoangtuan110699@gmail.com
-                    </span>
-                  </div>
-                  <div
-                    className="contact-item"
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      gap: "10px",
-                      color: "#475569",
-                    }}
-                  >
-                    <div
-                      className="contact-icon"
-                      style={{
-                        width: "32px",
-                        height: "32px",
-                        borderRadius: "8px",
-                        background:
-                          "linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%)",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        flexShrink: 0,
-                      }}
-                    >
-                      <Phone size={16} style={{ color: "#3b82f6" }} />
-                    </div>
-                    <span
-                      className="contact-text"
-                      style={{ fontSize: "13px", fontWeight: "500" }}
-                    >
-                      +84 336796710
-                    </span>
-                  </div>
-                  <div
-                    className="contact-item"
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      gap: "10px",
-                      color: "#475569",
                     }}
                   >
                     <div
@@ -543,13 +478,13 @@ export default function Home() {
                   lineHeight: "1.8",
                 }}
               >
-                I&apos;m Hoang Tuan, and I have 3+ years of experience
-                in software engineering, starting from my college years.
-                I&apos;m a Full-Stack Developer with a strong passion for
-                building high-performance, user-centric applications. My
-                expertise spans across modern front-end technologies like React.js,
-                Next.js, Redux, and Redux Toolkit, Zustand, and robust back-end
-                development using Node.js and NestJS.
+                I&apos;m Hoang Tuan, a Full-Stack Developer with 4+ years of
+                experience building scalable backend systems, modern web
+                applications, and data-intensive map infrastructure. My recent
+                work focuses on geospatial APIs, administrative boundaries,
+                pricing boundaries, real-time data pipelines, and production web
+                platforms using Go, Python, Node.js, NestJS, Next.js, PostgreSQL,
+                PostGIS, MongoDB, ClickHouse, Kafka, and TypeScript.
               </p>
             </section>
 
@@ -598,7 +533,8 @@ export default function Home() {
                   </strong>
                   <span style={{ color: "#4b5563" }}>
                     {" "}
-                    React.js, Next.js, Redux, Redux Toolkit, Zustand
+                    React.js, Next.js, Remix.js, Redux, Redux Toolkit, Zustand,
+                    Tailwind CSS
                   </span>
                 </div>
                 <div>
@@ -607,7 +543,7 @@ export default function Home() {
                   </strong>
                   <span style={{ color: "#4b5563" }}>
                     {" "}
-                    Node.js, NestJS, .NET
+                    Node.js, NestJS, Go, Python, Fastify, .NET
                   </span>
                 </div>
                 <div>
@@ -616,7 +552,7 @@ export default function Home() {
                   </strong>
                   <span style={{ color: "#4b5563" }}>
                     {" "}
-                    JavaScript (ES6+), TypeScript, HTML, CSS
+                    JavaScript (ES6+), TypeScript, Go, Python, HTML, CSS
                   </span>
                 </div>
                 <div>
@@ -625,7 +561,8 @@ export default function Home() {
                   </strong>
                   <span style={{ color: "#4b5563" }}>
                     {" "}
-                    MySQL, SQL Server, Redis, MongoDB
+                    PostgreSQL, PostGIS, MySQL, SQL Server, Redis, MongoDB,
+                    ClickHouse
                   </span>
                 </div>
                 <div>
@@ -634,7 +571,8 @@ export default function Home() {
                   </strong>
                   <span style={{ color: "#4b5563" }}>
                     {" "}
-                    Kubernetes, Azure, Nginx, Elasticsearch, OpenSearch, Docker, Git
+                    Docker, Kubernetes, Azure, Nginx, Elasticsearch, OpenSearch,
+                    Kafka, ksqlDB, GitLab CI, Git
                   </span>
                 </div>
                 <div>
@@ -643,7 +581,7 @@ export default function Home() {
                   </strong>
                   <span style={{ color: "#4b5563" }}>
                     {" "}
-                    Ant Design, Semantic UI, Tailwind, Bootstrap
+                    Ant Design, Semantic UI, Tailwind CSS, Bootstrap
                   </span>
                 </div>
               </div>
@@ -698,6 +636,139 @@ export default function Home() {
                       color: "#111827",
                     }}
                   >
+                    Fullstack Developer (Map Infrastructure Owner)
+                  </div>
+                  <div
+                    className="text-sm"
+                    style={{
+                      color: "#6b7280",
+                      fontSize: "13px",
+                      fontWeight: "500",
+                    }}
+                  >
+                    Nov 2025 — Present
+                  </div>
+                </div>
+                <div
+                  className="text-sm font-medium mb-2"
+                  style={{
+                    color: "#3b82f6",
+                    fontSize: "15px",
+                    marginBottom: "8px",
+                    fontWeight: "600",
+                  }}
+                >
+                  bTaskee (Full-time) — Vietnam / Regional
+                </div>
+                <p
+                  style={{
+                    color: "#4b5563",
+                    fontSize: "14px",
+                    lineHeight: "1.8",
+                    marginBottom: "12px",
+                  }}
+                >
+                  Own and build map infrastructure, administrative boundary
+                  systems, geographic pricing boundaries, and internal logistics
+                  APIs across Vietnam, Thailand, Malaysia, and Indonesia.
+                </p>
+                <div
+                  style={{
+                    color: "#111827",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    marginTop: "12px",
+                    marginBottom: "8px",
+                  }}
+                >
+                  Key Contributions:
+                </div>
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: "8px",
+                    paddingLeft: "0",
+                  }}
+                >
+                  {[
+                    "Own bTaskee's mapping domain, administrative boundaries, and geographic pricing boundaries across 4 regional countries.",
+                    "Design and build high-performance map and routing APIs supporting end-user apps and internal logistics workflows.",
+                    "Process millions of message events through streaming pipelines with Kafka and ClickHouse.",
+                    "Develop operations portal backend features with Remix.js to improve internal task dispatching and customer support workflows.",
+                  ].map((item) => (
+                    <div
+                      key={item}
+                      style={{
+                        display: "flex",
+                        gap: "12px",
+                        alignItems: "flex-start",
+                      }}
+                    >
+                      <div
+                        style={{
+                          width: "6px",
+                          height: "6px",
+                          borderRadius: "50%",
+                          backgroundColor: "#3b82f6",
+                          marginTop: "9px",
+                          flexShrink: 0,
+                        }}
+                      />
+                      <span
+                        style={{
+                          color: "#4b5563",
+                          fontSize: "14px",
+                          lineHeight: "1.8",
+                          flex: 1,
+                        }}
+                      >
+                        {item}
+                      </span>
+                    </div>
+                  ))}
+                </div>
+                <div
+                  style={{
+                    color: "#111827",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    marginTop: "12px",
+                    marginBottom: "8px",
+                  }}
+                >
+                  Technologies Used:
+                </div>
+                <p
+                  style={{
+                    color: "#4b5563",
+                    fontSize: "14px",
+                    lineHeight: "1.8",
+                  }}
+                >
+                  Go, Python, Node.js, TypeScript, PostgreSQL, PostGIS, MongoDB,
+                  ClickHouse, Kafka, ksqlDB, Remix.js, Docker
+                </p>
+              </div>
+
+              {/* Job 2 */}
+              <div className="mb-4" style={{ marginBottom: "20px" }}>
+                <div
+                  className="flex justify-between items-baseline"
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    marginBottom: "4px",
+                  }}
+                >
+                  <div
+                    className="text-base font-semibold"
+                    style={{
+                      fontSize: "16px",
+                      fontWeight: "700",
+                      color: "#111827",
+                    }}
+                  >
                     Fullstack Developer
                   </div>
                   <div
@@ -708,7 +779,7 @@ export default function Home() {
                       fontWeight: "500",
                     }}
                   >
-                    Dec 2024 — Present
+                    Dec 2024 — Nov 2025
                   </div>
                 </div>
                 <div
@@ -1580,9 +1651,10 @@ export default function Home() {
                         lineHeight: "1.6",
                       }}
                     >
-                      Google AI Essentials, Google Prompting Essentials,
-                      Introduction to Next.js, Introduction to Docker, NestJS:
-                      The Complete Developer&apos;s Guide
+                      Google Prompting Essentials, Google AI Essentials,
+                      NestJS: The Complete Developer&apos;s Guide, Introduction to
+                      Next.js, Introduction to Docker, Programming with Google
+                      Go
                     </div>
                   </div>
                 </div>
@@ -1603,11 +1675,11 @@ export default function Home() {
               <p style={{ marginBottom: "8px" }}>
                 More information and certifications available at{" "}
                 <span style={{ color: "#3b82f6", fontWeight: "600" }}>
-                  www.tuannguyenhoang.com
+                  hoangtuan.me
                 </span>
               </p>
               <p style={{ fontSize: "12px", color: "#9ca3af" }}>
-                3+ years of professional full-stack development experience
+                4+ years of professional full-stack development experience
               </p>
             </div>
           </div>
@@ -1633,7 +1705,7 @@ export default function Home() {
               }}
             >
               <a
-                href="https://www.tuannguyenhoang.com"
+                href="https://hoangtuan.me"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
@@ -1654,7 +1726,7 @@ export default function Home() {
                 }}
               >
                 <span>🌐</span>
-                <span>tuannguyenhoang.com</span>
+                <span>hoangtuan.me</span>
               </a>
               <p
                 style={{

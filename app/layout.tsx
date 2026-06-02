@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Nguyen Hoang Tuan - Fullstack Developer",
   description:
-    "Fullstack Developer with experience in building high-performance, user-centric applications using React, Next.js, Node.js and NestJS. Specializes in TypeScript, scalable architecture and integrations.",
+    "Fullstack Developer building scalable backend systems, modern web applications, and data-intensive map infrastructure with Go, Python, Node.js, NestJS, Next.js, PostgreSQL, PostGIS, Kafka, and TypeScript.",
   keywords: [
     "Nguyen Hoang Tuan",
     "Fullstack Developer",
@@ -23,26 +23,31 @@ export const metadata: Metadata = {
     "Next.js",
     "Node.js",
     "NestJS",
+    "Go",
+    "Python",
     "TypeScript",
     "JavaScript",
-    "MySQL",
+    "PostgreSQL",
+    "PostGIS",
     "MongoDB",
+    "ClickHouse",
+    "Kafka",
     "Kubernetes",
   ],
-  authors: [{ name: "Nguyen Hoang Tuan", url: "https://www.tuannguyenhoang.com" }],
+  authors: [{ name: "Nguyen Hoang Tuan", url: "https://hoangtuan.me" }],
   creator: "Nguyen Hoang Tuan",
   publisher: "Nguyen Hoang Tuan",
-  metadataBase: new URL("https://www.tuannguyenhoang.com"),
+  metadataBase: new URL("https://hoangtuan.me"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://www.tuannguyenhoang.com",
+    url: "https://hoangtuan.me",
     title: "Nguyen Hoang Tuan - Fullstack Developer",
     description:
-      "Fullstack Developer specialized in React, Next.js, Node.js and NestJS. Building scalable, high-performance web applications.",
+      "Fullstack Developer specialized in backend systems, map infrastructure, and scalable web applications.",
     siteName: "Nguyen Hoang Tuan - Resume",
     images: [
       {
@@ -57,7 +62,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Nguyen Hoang Tuan - Fullstack Developer",
     description:
-      "Fullstack Developer specialized in React, Next.js, Node.js and NestJS. Building scalable, high-performance web applications.",
+      "Fullstack Developer specialized in backend systems, map infrastructure, and scalable web applications.",
     images: ["https://res.cloudinary.com/dxc0m9waq/image/upload/v1646512308/metatag_ftkcdv.jpg"],
     creator: "@nguyenhoangtuan",
   },
@@ -111,12 +116,11 @@ export default function RootLayout({
     givenName: "Nguyen Hoang",
     familyName: "Tuan",
     birthDate: "1999",
-    email: "nguyenhoangtuan110699@gmail.com",
-    url: "https://www.tuannguyenhoang.com",
+    url: "https://hoangtuan.me",
     image: "https://res.cloudinary.com/dxc0m9waq/image/upload/v1646512308/metatag_ftkcdv.jpg",
     jobTitle: "Fullstack Developer",
     description:
-      "Fullstack Developer with experience in React, Next.js, Node.js and NestJS. Focused on performance, scalability and maintainable code.",
+      "Fullstack Developer with experience in backend systems, map infrastructure, modern web applications, and data engineering workflows.",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Ho Chi Minh City",
@@ -124,12 +128,11 @@ export default function RootLayout({
     },
     sameAs: [
       "https://www.linkedin.com/in/hoangtuan99",
-      "https://www.facebook.com/nguyen.hoang.tuan.218850",
-      "https://www.tuannguyenhoang.com",
+      "https://hoangtuan.me",
     ],
     worksFor: {
       "@type": "Organization",
-      name: "TRAVEL EASY",
+      name: "bTaskee",
     },
     alumniOf: {
       "@type": "EducationalOrganization",
@@ -142,8 +145,13 @@ export default function RootLayout({
       "TypeScript",
       "Node.js",
       "NestJS",
-      "MySQL",
+      "Go",
+      "Python",
+      "PostgreSQL",
+      "PostGIS",
       "MongoDB",
+      "ClickHouse",
+      "Kafka",
       "Kubernetes",
     ],
   };

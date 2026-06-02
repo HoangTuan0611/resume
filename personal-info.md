@@ -3,10 +3,10 @@
 ## Contact Information
 
 - **Full Name**: Nguyen Hoang Tuan
-- **Email**: nguyenhoangtuan110699@gmail.com
+- **Email**: Available upon request
 - **Birthday**: 1999
 - **Location**: Ho Chi Minh City, Vietnam
-- **Website**: www.tuannguyenhoang.com
+- **Website**: hoangtuan.me
 - **LinkedIn**: linkedin.com/in/hoangtuan99
 - **Facebook**: facebook.com/nguyen.hoang.tuan.218850
 
@@ -16,16 +16,41 @@ Fullstack Developer
 
 ## Professional Summary
 
-I'm Hoang Tuan, and I have 3+ years of experience in software engineering, starting from my college years. I'm a Full-Stack Developer with a strong passion for building high-performance, user-centric applications. My expertise spans across modern front-end technologies like React.js, Next.js, Redux, and Redux Toolkit, Zustand, and robust back-end development using Node.js and NestJS.
+I'm Hoang Tuan, a Full-Stack Developer with 4+ years of experience building scalable backend systems, modern web applications, and data-intensive map infrastructure. My recent work focuses on geospatial APIs, administrative boundaries, pricing boundaries, real-time data pipelines, and production web platforms using Go, Python, Node.js, NestJS, Next.js, PostgreSQL, PostGIS, MongoDB, ClickHouse, Kafka, and TypeScript.
 
 ## Work Experience
+
+### Fullstack Developer (Map Infrastructure Owner)
+
+**bTaskee**
+
+- **Position**: Fullstack Developer (Map Infrastructure Owner) (Full-time)
+- **Duration**: Nov 2025 - Present
+- **Location**: Vietnam / Regional
+
+**Responsibilities**:
+
+- Own and build map infrastructure, administrative boundary systems, geographic pricing boundaries, and internal logistics APIs across Vietnam, Thailand, Malaysia, and Indonesia.
+
+**Key Contributions**:
+
+- Own bTaskee's mapping domain, administrative boundaries, and geographic pricing boundaries across 4 regional countries.
+- Designed and built high-performance map and routing APIs supporting end-user apps and internal logistics workflows.
+- Processed millions of message events through streaming pipelines with Kafka and ClickHouse.
+- Developed operations portal backend features with Remix.js to improve internal task dispatching and customer support workflows.
+
+**Technologies Used**:
+
+Go, Python, Node.js, TypeScript, PostgreSQL, PostGIS, MongoDB, ClickHouse, Kafka, ksqlDB, Remix.js, Docker
+
+---
 
 ### Fullstack Developer
 
 **TRAVEL EASY**
 
 - **Position**: Fullstack Developer (Full-time)
-- **Duration**: Dec 2024 - Present
+- **Duration**: Dec 2024 - Nov 2025
 - **Location**: Vietnam
 
 **Responsibilities**:
@@ -120,11 +145,15 @@ HTML, CSS, JavaScript, ReactJS, Semantic UI, NodeJs, MySQL, Mongo, Git, SourceTr
 
 - React.js
 - Next.js
+- Remix.js
 - Redux
 - Redux Toolkit
 - Zustand
+- Tailwind CSS
 - JavaScript (ES6+)
 - TypeScript
+- Go
+- Python
 - HTML
 - CSS
 
@@ -132,14 +161,20 @@ HTML, CSS, JavaScript, ReactJS, Semantic UI, NodeJs, MySQL, Mongo, Git, SourceTr
 
 - Node.js
 - NestJS
+- Go
+- Python
+- Fastify
 - .NET
 
 ### Databases
 
+- PostgreSQL
+- PostGIS
 - MySQL
 - SQL Server
 - MongoDB
 - Redis
+- ClickHouse
 
 ### DevOps & Tools
 
@@ -147,6 +182,8 @@ HTML, CSS, JavaScript, ReactJS, Semantic UI, NodeJs, MySQL, Mongo, Git, SourceTr
 - Nginx
 - Elasticsearch
 - OpenSearch
+- Kafka
+- ksqlDB
 - GitLab CI
 - Git
 - SourceTree
@@ -158,11 +195,15 @@ HTML, CSS, JavaScript, ReactJS, Semantic UI, NodeJs, MySQL, Mongo, Git, SourceTr
 
 - Ant Design
 - Semantic UI
-- Tailwind
+- Tailwind CSS
 - Bootstrap
 
 ### Other Technologies
 
+- Geospatial APIs
+- Administrative Boundaries
+- Pricing Boundaries
+- Map Infrastructure
 - Payment Gateway Integration
 - Email Systems Integration
 - API Development
@@ -182,43 +223,50 @@ HTML, CSS, JavaScript, ReactJS, Semantic UI, NodeJs, MySQL, Mongo, Git, SourceTr
 
 ## Professional Certifications
 
-### Google AI Essentials
-
-- **Issuer**: Google
-
 ### Google Prompting Essentials
 
 - **Issuer**: Google
 
-### Introduction to Next.js
+### Google AI Essentials
 
-- **Issuer**: Various Online Platforms
-
-### Introduction to Docker
-
-- **Issuer**: Various Online Platforms
+- **Issuer**: Google
 
 ### NestJS: The Complete Developer's Guide
 
-- **Issuer**: Various Online Platforms
+- **Issuer**: Udemy
 
-**Note**: More certifications available at www.tuannguyenhoang.com/certifications
+### Introduction to Next.js
+
+- **Issuer**: Coursera
+
+### Introduction to Docker
+
+- **Issuer**: Google Cloud
+
+### Programming with Google Go
+
+- **Issuer**: University of California, Irvine
+
+**Note**: More certifications available at hoangtuan.me/certifications
 
 ## Key Achievements
 
+- Owned regional map infrastructure and administrative boundary systems across Vietnam, Thailand, Malaysia, and Indonesia
+- Built high-performance map and routing APIs for user-facing apps and internal logistics workflows
+- Processed high-volume event streams with Kafka and ClickHouse
 - Built and launched a fullstack web platform for flight and hotel booking with high performance and scalability
 - Integrated third-party payment gateways and email systems for streamlined booking processes
 - Received Best Performance Award 2023 at Titan Technology Corporation
 - Improved code quality and system efficiency through regular refactoring and performance tuning
 - Created flexible, modular components to accelerate future project development
 - Delivered highly customized and scalable web solutions across multiple companies
-- Nearly 4 years of professional full-stack development experience
+- 4+ years of professional full-stack development experience
 
 ## Additional Information
 
-- 4 years of professional software engineering experience
-- Specialization in Full-Stack Development with React.js, Next.js, Node.js, and NestJS
-- Experience in travel/booking industry, e-commerce platforms, and enterprise applications
+- 4+ years of professional software engineering experience
+- Specialization in Full-Stack Development, backend systems, map infrastructure, and data-intensive workflows
+- Experience in map infrastructure, logistics workflows, travel/booking platforms, and enterprise applications
 - Strong team collaboration and cross-functional communication skills
 - Focus on performance optimization, scalability, and user experience
 - Active in code quality practices including refactoring and debugging

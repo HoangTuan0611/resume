@@ -43,21 +43,21 @@ Professional resume website with PDF download functionality built with Next.js.
 - **Facebook**: https://www.facebook.com/nguyen.hoang.tuan.218850
 - **Instagram**: (optional)
 - **Blog**: (optional)
-- **Website**: https://www.tuannguyenhoang.com
+- **Website**: https://hoangtuan.me
 
 ## 💼 Professional Information
 
 **Name**: Nguyen Hoang Tuan  
 **Role**: Fullstack Developer  
-**Current Company**: TRAVEL EASY  
+**Current Company**: bTaskee  
 **Location**: Ho Chi Minh City, Vietnam  
-**Email**: nguyenhoangtuan110699@gmail.com
+**Email**: Available upon request
 
 ### Experience
 
-- 3+ years in Mobile & Frontend Development
-- Specialized in React Native, React, TypeScript
-- Built applications serving millions of users
+- 4+ years in full-stack software engineering
+- Specialized in backend systems, map infrastructure, and scalable web applications
+- Current focus: regional map APIs, administrative boundaries, pricing boundaries, and data-intensive workflows
 - Expertise in e-commerce and retail applications
 
 ## 🛠️ Development
