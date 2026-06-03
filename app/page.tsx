@@ -636,7 +636,7 @@ export default function Home() {
                       color: "#111827",
                     }}
                   >
-                    Fullstack Developer (Map Infrastructure Owner)
+                    Senior Backend Engineer / Map Infrastructure Owner
                   </div>
                   <div
                     className="text-sm"
@@ -692,10 +692,10 @@ export default function Home() {
                   }}
                 >
                   {[
-                    "Own bTaskee's mapping domain, administrative boundaries, and geographic pricing boundaries across 4 regional countries.",
-                    "Design and build high-performance map and routing APIs supporting end-user apps and internal logistics workflows.",
-                    "Process millions of message events through streaming pipelines with Kafka and ClickHouse.",
-                    "Develop operations portal backend features with Remix.js to improve internal task dispatching and customer support workflows.",
+                    "100% owner of bTaskee's mapping domain, administrative boundaries, and geographic pricing boundaries across 4 regional countries (Vietnam, Thailand, Malaysia, Indonesia).",
+                    "Designed and built high-performance map and routing APIs supporting both end-user apps and internal logistics workflows.",
+                    "Processed 20M+ message events/day in real-time by integrating and optimizing streaming pipelines with Kafka and ClickHouse, reducing latency by 30%.",
+                    "Developed operations portal backend utilizing Remix.js to optimize internal task dispatching and customer support management.",
                   ].map((item) => (
                     <div
                       key={item}
