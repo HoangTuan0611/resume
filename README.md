@@ -1,6 +1,6 @@
 # Nguyen Hoang Tuan - Resume
 
-Professional resume website with PDF download functionality built with Next.js
+Professional resume website with PDF download functionality built with Next.js.
 
 ## 🚀 Features
 
