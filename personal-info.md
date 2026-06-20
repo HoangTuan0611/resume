@@ -45,25 +45,23 @@ Go, Python, Node.js, TypeScript, PostgreSQL, PostGIS, MongoDB, ClickHouse, Kafka
 
 ---
 
-### Fullstack Developer
+### Fullstack Developer / Backend Lead
 
 **TRAVEL EASY**
 
-- **Position**: Fullstack Developer (Full-time)
+- **Position**: Fullstack Developer / Backend Lead (Full-time)
 - **Duration**: Dec 2024 - Nov 2025
 - **Location**: Vietnam
 
 **Responsibilities**:
 
-- Develop and maintain fullstack web applications in the flight and hotel booking domain using scalable and secure architecture.
+- Lead the backend team for an online ticketing & booking platform spanning flight tickets, hotels, tours, and eSIM, owning the architecture and core service design.
 
 **Key Contributions**:
 
-- Built and launched a fullstack web platform for flight and hotel booking, ensuring high performance and scalability.
-- Integrated third-party services such as payment gateways and email systems, streamlining the booking and confirmation process.
-- Developed and maintained APIs and frontend features that enhanced user experience and booking reliability
-- Collaborated closely with the product team to design data structures and workflows tailored to travel industry needs.
-- Ensured code quality and maintainability through TypeScript, modular architecture, and best practices in both NestJS and NextJS.
+- Led the backend team for an online ticketing & booking platform spanning flight tickets, hotels, tours, and eSIM, owning the architecture and core service design.
+- Built scalable, secure booking APIs and integrated multi-provider search, payment gateways, and email/notification systems for automated booking and ticketing workflows.
+- Defined modular data structures and service boundaries, and drove code quality across NestJS and Next.js.
 
 **Technologies Used**:
 

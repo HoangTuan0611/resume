@@ -769,7 +769,7 @@ export default function Home() {
                       color: "#111827",
                     }}
                   >
-                    Fullstack Developer
+                    Fullstack Developer / Backend Lead
                   </div>
                   <div
                     className="text-sm"
@@ -801,9 +801,9 @@ export default function Home() {
                     marginBottom: "12px",
                   }}
                 >
-                  Develop and maintain fullstack web applications in the flight
-                  and hotel booking domain using scalable and secure
-                  architecture.
+                  Backend Lead for an online ticketing &amp; booking platform
+                  spanning flight tickets, hotels, tours, and eSIM, owning the
+                  architecture and core service design.
                 </p>
                 <div
                   style={{
@@ -849,8 +849,9 @@ export default function Home() {
                         flex: 1,
                       }}
                     >
-                      Built and launched a fullstack web platform for flight and
-                      hotel booking, ensuring high performance and scalability
+                      Led the backend team for an online ticketing &amp; booking
+                      platform spanning flight tickets, hotels, tours, and eSIM,
+                      owning the architecture and core service design
                     </span>
                   </div>
                   <div
@@ -878,9 +879,10 @@ export default function Home() {
                         flex: 1,
                       }}
                     >
-                      Integrated third-party services such as payment gateways
-                      and email systems, streamlining the booking and
-                      confirmation process
+                      Built scalable, secure booking APIs and integrated
+                      multi-provider search, payment gateways, and
+                      email/notification systems for automated booking and
+                      ticketing workflows
                     </span>
                   </div>
                   <div
@@ -908,67 +910,8 @@ export default function Home() {
                         flex: 1,
                       }}
                     >
-                      Developed and maintained APIs and frontend features that
-                      enhanced user experience and booking reliability
-                    </span>
-                  </div>
-                  <div
-                    style={{
-                      display: "flex",
-                      gap: "12px",
-                      alignItems: "flex-start",
-                    }}
-                  >
-                    <div
-                      style={{
-                        width: "6px",
-                        height: "6px",
-                        borderRadius: "50%",
-                        backgroundColor: "#3b82f6",
-                        marginTop: "9px",
-                        flexShrink: 0,
-                      }}
-                    />
-                    <span
-                      style={{
-                        color: "#4b5563",
-                        fontSize: "14px",
-                        lineHeight: "1.8",
-                        flex: 1,
-                      }}
-                    >
-                      Collaborated closely with the product team to design data
-                      structures and workflows tailored to travel industry needs
-                    </span>
-                  </div>
-                  <div
-                    style={{
-                      display: "flex",
-                      gap: "12px",
-                      alignItems: "flex-start",
-                    }}
-                  >
-                    <div
-                      style={{
-                        width: "6px",
-                        height: "6px",
-                        borderRadius: "50%",
-                        backgroundColor: "#3b82f6",
-                        marginTop: "9px",
-                        flexShrink: 0,
-                      }}
-                    />
-                    <span
-                      style={{
-                        color: "#4b5563",
-                        fontSize: "14px",
-                        lineHeight: "1.8",
-                        flex: 1,
-                      }}
-                    >
-                      Ensured code quality and maintainability through
-                      TypeScript, modular architecture, and best practices in
-                      both NestJS and NextJS
+                      Defined modular data structures and service boundaries, and
+                      drove code quality across NestJS and Next.js
                     </span>
                   </div>
                 </div>
