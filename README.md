@@ -48,16 +48,16 @@ Professional resume website with PDF download functionality built with Next.js
 ## 💼 Professional Information
 
 **Name**: Nguyen Hoang Tuan  
-**Role**: Fullstack Developer  
+**Role**: Full-Stack, Data Engineer<br>
 **Current Company**: bTaskee  
 **Location**: Ho Chi Minh City, Vietnam  
 **Email**: Available upon request
 
 ### Experience
 
-- 4+ years in full-stack software engineering
-- Specialized in backend systems, map infrastructure, and scalable web applications
-- Current focus: regional map APIs, administrative boundaries, pricing boundaries, and data-intensive workflows
+- 4+ years in full-stack engineering and data-intensive systems
+- Specialized in scalable products, geospatial systems, backend services, and real-time data pipelines
+- Current focus: regional map APIs, administrative boundaries, pricing boundaries, and data platform workflows
 - Expertise in e-commerce and retail applications
 
 ## 🛠️ Development

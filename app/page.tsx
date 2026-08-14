@@ -17,7 +17,7 @@ export default function Home() {
 
     const opt = {
       margin: 0.4,
-      filename: "NguyenHoangTuan_Fullstack_Resume.pdf",
+      filename: "NguyenHoangTuan_FullStack_Data_Resume.pdf",
       image: { type: "jpeg", quality: 0.98 },
       html2canvas: {
         scale: 2,
@@ -322,7 +322,7 @@ export default function Home() {
                     letterSpacing: "0.3px",
                   }}
                 >
-                  Fullstack Developer
+                  Full-Stack, Data Engineer
                 </p>
                 <div
                   className="contact-grid text-sm"
@@ -478,13 +478,12 @@ export default function Home() {
                   lineHeight: "1.8",
                 }}
               >
-                I&apos;m Hoang Tuan, a Full-Stack Developer with 4+ years of
-                experience building scalable backend systems, modern web
-                applications, and data-intensive map infrastructure. My recent
-                work focuses on geospatial APIs, administrative boundaries,
-                pricing boundaries, real-time data pipelines, and production web
-                platforms using Go, Python, Node.js, NestJS, Next.js, PostgreSQL,
-                PostGIS, MongoDB, ClickHouse, Kafka, and TypeScript.
+                I&apos;m Hoang Tuan, a Full-Stack, Data Engineer with 4+ years of
+                experience building scalable products, data pipelines, and
+                backend services. My recent work focuses on geospatial APIs,
+                administrative boundaries, pricing boundaries, real-time data
+                pipelines, and production platforms using Go, Python, Node.js,
+                PostgreSQL, PostGIS, MongoDB, ClickHouse, Kafka, and TypeScript.
               </p>
             </section>
 
@@ -636,7 +635,7 @@ export default function Home() {
                       color: "#111827",
                     }}
                   >
-                    Senior Backend Engineer / Map Infrastructure Owner
+                    Full-Stack, Data Engineer
                   </div>
                   <div
                     className="text-sm"

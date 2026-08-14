@@ -12,19 +12,19 @@
 
 ## Professional Title
 
-Fullstack Developer
+Full-Stack, Data Engineer
 
 ## Professional Summary
 
-I'm Hoang Tuan, a Full-Stack Developer with 4+ years of experience building scalable backend systems, modern web applications, and data-intensive map infrastructure. My recent work focuses on geospatial APIs, administrative boundaries, pricing boundaries, real-time data pipelines, and production web platforms using Go, Python, Node.js, NestJS, Next.js, PostgreSQL, PostGIS, MongoDB, ClickHouse, Kafka, and TypeScript.
+I'm Hoang Tuan, a Full-Stack, Data Engineer with 4+ years of experience building scalable products, data pipelines, and backend services. My recent work focuses on geospatial APIs, administrative boundaries, pricing boundaries, real-time data pipelines, and production platforms using Go, Python, Node.js, PostgreSQL, PostGIS, MongoDB, ClickHouse, Kafka, and TypeScript.
 
 ## Work Experience
 
-### Senior Backend Engineer / Map Infrastructure Owner
+### Full-Stack, Data Engineer
 
 **bTaskee**
 
-- **Position**: Senior Backend Engineer / Map Infrastructure Owner (Full-time)
+- **Position**: Full-Stack, Data Engineer (Full-time)
 - **Duration**: Nov 2025 - Present
 - **Location**: Vietnam / Regional
 

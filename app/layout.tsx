@@ -13,12 +13,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Nguyen Hoang Tuan - Fullstack Developer",
+  title: "Nguyen Hoang Tuan - Full-Stack, Data Engineer",
   description:
-    "Fullstack Developer building scalable backend systems, modern web applications, and data-intensive map infrastructure with Go, Python, Node.js, NestJS, Next.js, PostgreSQL, PostGIS, Kafka, and TypeScript.",
+    "Full-Stack, Data Engineer building scalable products, real-time data pipelines, and backend services with Go, Python, PostgreSQL, PostGIS, ClickHouse, Kafka, and TypeScript.",
   keywords: [
     "Nguyen Hoang Tuan",
-    "Fullstack Developer",
+    "Full-Stack Engineer",
+    "Data Engineer",
+    "Data Platform",
     "React",
     "Next.js",
     "Node.js",
@@ -45,24 +47,24 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://hoangtuan.me",
-    title: "Nguyen Hoang Tuan - Fullstack Developer",
+    title: "Nguyen Hoang Tuan - Full-Stack, Data Engineer",
     description:
-      "Fullstack Developer specialized in backend systems, map infrastructure, and scalable web applications.",
+      "Full-Stack, Data Engineer specialized in scalable products, real-time data pipelines, and backend services.",
     siteName: "Nguyen Hoang Tuan - Resume",
     images: [
       {
         url: "https://res.cloudinary.com/dxc0m9waq/image/upload/v1646512308/metatag_ftkcdv.jpg",
         width: 1200,
         height: 630,
-        alt: "Nguyen Hoang Tuan - Fullstack Developer",
+        alt: "Nguyen Hoang Tuan - Full-Stack, Data Engineer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nguyen Hoang Tuan - Fullstack Developer",
+    title: "Nguyen Hoang Tuan - Full-Stack, Data Engineer",
     description:
-      "Fullstack Developer specialized in backend systems, map infrastructure, and scalable web applications.",
+      "Full-Stack, Data Engineer specialized in scalable products, real-time data pipelines, and backend services.",
     images: ["https://res.cloudinary.com/dxc0m9waq/image/upload/v1646512308/metatag_ftkcdv.jpg"],
     creator: "@nguyenhoangtuan",
   },
@@ -118,9 +120,9 @@ export default function RootLayout({
     birthDate: "1999",
     url: "https://hoangtuan.me",
     image: "https://res.cloudinary.com/dxc0m9waq/image/upload/v1646512308/metatag_ftkcdv.jpg",
-    jobTitle: "Fullstack Developer",
+    jobTitle: "Full-Stack, Data Engineer",
     description:
-      "Fullstack Developer with experience in backend systems, map infrastructure, modern web applications, and data engineering workflows.",
+      "Full-Stack, Data Engineer with experience in scalable products, real-time data pipelines, backend services, and map infrastructure.",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Ho Chi Minh City",
