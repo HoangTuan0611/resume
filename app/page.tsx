@@ -478,7 +478,7 @@ export default function Home() {
                   lineHeight: "1.8",
                 }}
               >
-                I&apos;m Hoang Tuan, a Full-Stack, Data Engineer with 4+ years of
+                I&apos;m Hoang Tuan, a Full-Stack, Data Engineer with 5+ years of
                 experience building scalable products, data pipelines, and
                 backend services. My recent work focuses on geospatial APIs,
                 administrative boundaries, pricing boundaries, real-time data
@@ -669,7 +669,7 @@ export default function Home() {
                 >
                   Own and build map infrastructure, administrative boundary
                   systems, geographic pricing boundaries, and internal logistics
-                  APIs across Vietnam, Thailand, Malaysia, and Indonesia.
+                  APIs across all operating countries.
                 </p>
                 <div
                   style={{
@@ -691,7 +691,7 @@ export default function Home() {
                   }}
                 >
                   {[
-                    "100% owner of bTaskee's mapping domain, administrative boundaries, and geographic pricing boundaries across 4 regional countries (Vietnam, Thailand, Malaysia, Indonesia).",
+                    "100% owner of bTaskee's mapping domain, administrative boundaries, and geographic pricing boundaries across all operating countries.",
                     "Designed and built high-performance map and routing APIs supporting both end-user apps and internal logistics workflows.",
                     "Processed 20M+ message events/day in real-time by integrating and optimizing streaming pipelines with Kafka and ClickHouse, reducing latency by 30%.",
                     "Developed operations portal backend utilizing Remix.js to optimize internal task dispatching and customer support management.",
@@ -1621,7 +1621,7 @@ export default function Home() {
                 </span>
               </p>
               <p style={{ fontSize: "12px", color: "#9ca3af" }}>
-                4+ years of professional full-stack development experience
+                5+ years of professional full-stack development experience
               </p>
             </div>
           </div>

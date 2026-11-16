@@ -16,7 +16,7 @@ Full-Stack, Data Engineer
 
 ## Professional Summary
 
-I'm Hoang Tuan, a Full-Stack, Data Engineer with 4+ years of experience building scalable products, data pipelines, and backend services. My recent work focuses on geospatial APIs, administrative boundaries, pricing boundaries, real-time data pipelines, and production platforms using Go, Python, Node.js, PostgreSQL, PostGIS, MongoDB, ClickHouse, Kafka, and TypeScript.
+I'm Hoang Tuan, a Full-Stack, Data Engineer with 5+ years of experience building scalable products, data pipelines, and backend services. My recent work focuses on geospatial APIs, administrative boundaries, pricing boundaries, real-time data pipelines, and production platforms using Go, Python, Node.js, PostgreSQL, PostGIS, MongoDB, ClickHouse, Kafka, and TypeScript.
 
 ## Work Experience
 
@@ -30,11 +30,11 @@ I'm Hoang Tuan, a Full-Stack, Data Engineer with 4+ years of experience building
 
 **Responsibilities**:
 
-- Own and build map infrastructure, administrative boundary systems, geographic pricing boundaries, and internal logistics APIs across Vietnam, Thailand, Malaysia, and Indonesia.
+- Own and build map infrastructure, administrative boundary systems, geographic pricing boundaries, and internal logistics APIs across all operating countries.
 
 **Key Contributions**:
 
-- 100% owner of bTaskee's mapping domain, administrative boundaries, and geographic pricing boundaries across 4 regional countries (Vietnam, Thailand, Malaysia, Indonesia).
+- 100% owner of bTaskee's mapping domain, administrative boundaries, and geographic pricing boundaries across all operating countries.
 - Designed and built high-performance map and routing APIs supporting both end-user apps and internal logistics workflows.
 - Processed 20M+ message events/day in real-time by integrating and optimizing streaming pipelines with Kafka and ClickHouse, reducing latency by 30%.
 - Developed operations portal backend utilizing Remix.js to optimize internal task dispatching and customer support management.
@@ -249,7 +249,7 @@ HTML, CSS, JavaScript, ReactJS, Semantic UI, NodeJs, MySQL, Mongo, Git, SourceTr
 
 ## Key Achievements
 
-- Owned regional map infrastructure and administrative boundary systems across Vietnam, Thailand, Malaysia, and Indonesia
+- Owned regional map infrastructure and administrative boundary systems across all operating countries
 - Built high-performance map and routing APIs for user-facing apps and internal logistics workflows
 - Processed high-volume event streams with Kafka and ClickHouse
 - Built and launched a fullstack web platform for flight and hotel booking with high performance and scalability
@@ -258,11 +258,11 @@ HTML, CSS, JavaScript, ReactJS, Semantic UI, NodeJs, MySQL, Mongo, Git, SourceTr
 - Improved code quality and system efficiency through regular refactoring and performance tuning
 - Created flexible, modular components to accelerate future project development
 - Delivered highly customized and scalable web solutions across multiple companies
-- 4+ years of professional full-stack development experience
+- 5+ years of professional full-stack development experience
 
 ## Additional Information
 
-- 4+ years of professional software engineering experience
+- 5+ years of professional software engineering experience
 - Specialization in Full-Stack Development, backend systems, map infrastructure, and data-intensive workflows
 - Experience in map infrastructure, logistics workflows, travel/booking platforms, and enterprise applications
 - Strong team collaboration and cross-functional communication skills

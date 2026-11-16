@@ -55,7 +55,7 @@ Professional resume website with PDF download functionality built with Next.js
 
 ### Experience
 
-- 4+ years in full-stack engineering and data-intensive systems
+- 5+ years in full-stack engineering and data-intensive systems
 - Specialized in scalable products, geospatial systems, backend services, and real-time data pipelines
 - Current focus: regional map APIs, administrative boundaries, pricing boundaries, and data platform workflows
 - Expertise in e-commerce and retail applications
