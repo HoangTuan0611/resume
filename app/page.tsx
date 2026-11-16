@@ -691,7 +691,7 @@ export default function Home() {
                   }}
                 >
                   {[
-                    "100% owner of bTaskee's mapping domain, administrative boundaries, and geographic pricing boundaries across all operating countries.",
+                    "Owner of bTaskee's mapping domain, administrative boundaries, and geographic pricing boundaries across all operating countries.",
                     "Designed and built high-performance map and routing APIs supporting both end-user apps and internal logistics workflows.",
                     "Processed 20M+ message events/day in real-time by integrating and optimizing streaming pipelines with Kafka and ClickHouse, reducing latency by 30%.",
                     "Developed operations portal backend utilizing Remix.js to optimize internal task dispatching and customer support management.",
